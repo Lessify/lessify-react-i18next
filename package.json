@@ -1,0 +1,47 @@
+{
+  "name": "@lessify/react-i18next",
+  "description": "This library is library for integration of your React and `react-i18next` project with [Lessify](https://lessify.io/).",
+  "author": "Lessify",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/Lessify/lessify-react-i18next",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lessify/lessify-react-i18next.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lessify/lessify-react-i18next/issues"
+  },
+  "devDependencies": {
+    "i18next": "^19.4.4",
+    "i18next-http-backend": "^1.0.9",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.4.0",
+    "typescript": "~3.7.2",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0"
+  },
+  "peerDependencies": {
+    "i18next": ">=19.0.0",
+    "i18next-http-backend": ">=1.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "react-i18next": ">=11.0.0"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:verbose": "tsc -b --verbose"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {},
+  "keywords": [
+    "lessify",
+    "i18next",
+    "react"
+  ]
+}
