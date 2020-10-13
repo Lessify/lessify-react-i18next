@@ -121,3 +121,4 @@ dist
 /dist
 *.js
 *.map
+*.d.ts
