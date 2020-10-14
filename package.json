@@ -2,7 +2,7 @@
   "name": "@lessify/react-i18next",
   "description": "This library is library for integration of your React and `react-i18next` project with [Lessify](https://lessify.io/).",
   "author": "Lessify",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "homepage": "https://github.com/Lessify/lessify-react-i18next",
   "repository": {
@@ -30,7 +30,7 @@
     "react-dom": ">=16.0.0",
     "react-i18next": ">=11.0.0"
   },
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "scripts": {
     "build": "tsc",
     "build:verbose": "tsc -b --verbose"
